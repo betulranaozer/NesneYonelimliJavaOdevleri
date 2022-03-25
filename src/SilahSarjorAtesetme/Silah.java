@@ -14,7 +14,7 @@ public class Silah {
 			System.out.println("Sarjorunuz yok.");
 		}
 		else if(menzil>maxMenzil) {
-			System.out.println("Menzilden uzağa ateş ettiniz. Hedefi ıskaladınız");
+			System.out.println("Menzilden uzaÃ°a ateÃ¾ ettiniz. Hedefi Ã½skaladÃ½nÃ½z");
 			sarjor.atesEt();
 		}
 
@@ -29,14 +29,4 @@ public class Silah {
 			}
 		}
 	}
-	
-	public void Doldur() {
-		if(sarjor == null) {
-			System.out.println("Sarjorunuz yok.");
-		}
-		else {
-			sarjor.doldurma();
-		}
-	}
-
 }
